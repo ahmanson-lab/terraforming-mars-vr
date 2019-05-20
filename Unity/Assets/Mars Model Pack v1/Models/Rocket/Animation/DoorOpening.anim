@@ -1,0 +1,477 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: DoorOpening
+  serializedVersion: 6
+  m_Legacy: 0
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.00000032468972, y: 0.3228572, z: -0.000000079271246, w: 0.9464477}
+        inSlope: {x: 0.0000000050007993, y: -0.0599876, z: 0.000000020577032, w: 0.020393727}
+        outSlope: {x: 0.0000000050007993, y: -0.0599876, z: 0.000000020577032, w: 0.020393727}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.40000004
+        value: {x: 0.00000033420446, y: 0.10059589, z: -0.0000000038367367, w: 0.99492735}
+        inSlope: {x: 0.00000000343746, y: -0.926211, z: 0.00000031111, w: 0.09324427}
+        outSlope: {x: 0.00000000343746, y: -0.926211, z: 0.00000031111, w: 0.09324427}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.73333335
+        value: {x: 0.00000031983203, y: -0.20382783, z: 0.00000009702997, w: 0.97900677}
+        inSlope: {x: -0.000000073341226, y: -0.7426139, z: 0.000000242628, w: -0.15383095}
+        outSlope: {x: -0.000000073341226, y: -0.7426139, z: 0.000000242628, w: -0.15383095}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: {x: 0.00000030676892, y: -0.3135096, z: 0.00000013266568, w: 0.949585}
+        inSlope: {x: -0.000000008384128, y: -0.06018525, z: 0.000000019445583, w: -0.019800086}
+        outSlope: {x: -0.000000008384128, y: -0.06018525, z: 0.000000019445583, w: -0.019800086}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: DoorHinge
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.67795396, y: -0.20336285, z: -0.20272285, w: 0.6767019}
+        inSlope: {x: 0.00029146668, y: -0.0009781122, z: -0.0009803474, w: -0.00029325482}
+        outSlope: {x: 0.00029146668, y: -0.0009781122, z: -0.0009803474, w: -0.00029325482}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.6333334
+        value: {x: -0.6610724, y: -0.25293696, z: -0.2523915, w: 0.6597763}
+        inSlope: {x: 0.016382948, y: -0.04282866, z: -0.042912256, w: -0.016417816}
+        outSlope: {x: 0.016382948, y: -0.04282866, z: -0.042912256, w: -0.016417816}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 3.0000002
+        value: {x: -0.64569336, y: -0.28995037, z: -0.2894793, w: 0.6443684}
+        inSlope: {x: 0.00041663687, y: -0.0009307274, z: -0.0009334096, w: -0.00042021315}
+        outSlope: {x: 0.00041663687, y: -0.0009307274, z: -0.0009334096, w: -0.00042021315}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Door
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.00013914985, y: 0.95792794, z: -0.00046443078, w: 0.2870084}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 4.1666665
+        value: {x: 0.00013914985, y: 0.95792794, z: -0.00046443078, w: 0.2870084}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: WhinchBracket
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.00013914985, y: 0.95792794, z: -0.00046443078, w: 0.2870084}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 4.1666665
+        value: {x: 0.00013914985, y: 0.95792794, z: -0.00046443078, w: 0.2870084}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: WhinchBracket2
+  m_CompressedRotationCurves: []
+  m_EulerCurves: []
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 1
+        value: {x: -4.816119, y: 31.672209, z: -4.144205}
+        inSlope: {x: -0, y: 5.6843473e-13, z: -4.5677787e-14}
+        outSlope: {x: -0, y: 5.6843473e-13, z: -4.5677787e-14}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.0333333
+        value: {x: -4.816119, y: 31.672209, z: -4.144205}
+        inSlope: {x: -0, y: 2.436149e-13, z: 9.643089e-14}
+        outSlope: {x: -0, y: 2.436149e-13, z: 9.643089e-14}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: DoorHinge
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -5.551331, y: 30.508314, z: -3.176912}
+        inSlope: {x: -0.000098518896, y: -0.0012939452, z: 0.000021370213}
+        outSlope: {x: -0.000098518896, y: -0.0012939452, z: 0.000021370213}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6333334
+        value: {x: -5.776175, y: 30.507498, z: -3.5511227}
+        inSlope: {x: -0.036683835, y: -0.001963586, z: -1.0134747}
+        outSlope: {x: -0.036349952, y: -0.0017020102, z: -1.0134312}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2333333
+        value: {x: -5.650642, y: 30.506865, z: -3.9199748}
+        inSlope: {x: 0.600664, y: -0.0018415194, z: -0.7895257}
+        outSlope: {x: 0.6008467, y: -0.0008963423, z: -0.7893424}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 2.6000001
+        value: {x: -4.7660503, y: 30.505293, z: -4.83312}
+        inSlope: {x: 0.56047535, y: -0.0012276795, z: -0.47363535}
+        outSlope: {x: 0.5605133, y: -0.000994002, z: -0.47362056}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 3
+        value: {x: -4.6400366, y: 30.50512, z: -4.9383492}
+        inSlope: {x: 0.00001263932, y: 3.6542498e-13, z: 0.000026597208}
+        outSlope: {x: 0.00001263932, y: 3.6542498e-13, z: 0.000026597208}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Door
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -4.891524, y: 32.942173, z: -3.6108165}
+        inSlope: {x: -3.5527133e-14, y: 5.6843413e-13, z: -3.5527133e-14}
+        outSlope: {x: -3.5527133e-14, y: 5.6843413e-13, z: -3.5527133e-14}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.6333334
+        value: {x: -4.891524, y: 32.942173, z: -3.6108165}
+        inSlope: {x: -1.522593e-14, y: 2.436149e-13, z: -1.522593e-14}
+        outSlope: {x: -3.552717e-14, y: 5.6843473e-13, z: -3.552717e-14}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 3.266667
+        value: {x: -4.891524, y: 32.942173, z: -3.6108165}
+        inSlope: {x: -1.522593e-14, y: 2.436149e-13, z: -1.522593e-14}
+        outSlope: {x: -3.552717e-14, y: 5.6843473e-13, z: -3.552717e-14}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 4.1666665
+        value: {x: -4.891553, y: 32.905125, z: -3.6107929}
+        inSlope: {x: -0.00007152558, y: -0.10857469, z: 0.00007867814}
+        outSlope: {x: -0.00007152558, y: -0.10857469, z: 0.00007867814}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: WhinchBracket
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -5.8846917, y: 32.943928, z: -2.102189}
+        inSlope: {x: -1.0658141e-13, y: 2.8421707e-13, z: -0}
+        outSlope: {x: -1.0658141e-13, y: 2.8421707e-13, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.6333334
+        value: {x: -5.8846917, y: 32.943928, z: -2.102189}
+        inSlope: {x: -4.5677793e-14, y: 1.2180744e-13, z: -0}
+        outSlope: {x: -1.0658151e-13, y: 2.8421737e-13, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 3.266667
+        value: {x: -5.8846917, y: 32.943928, z: -2.102189}
+        inSlope: {x: -4.5677793e-14, y: 1.2180744e-13, z: -0}
+        outSlope: {x: -1.0658151e-13, y: 2.8421737e-13, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 4.1666665
+        value: {x: -5.884705, y: 32.906776, z: -2.1021667}
+        inSlope: {x: -0.000056076056, y: -0.108670816, z: 0.00007753373}
+        outSlope: {x: -0.000056076056, y: -0.108670816, z: 0.00007753373}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: WhinchBracket2
+  m_ScaleCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: DoorHinge
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 3.0000002
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Door
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1.0000002, y: 1, z: 0.9999999}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 4.1666665
+        value: {x: 1.0000002, y: 1, z: 0.9999999}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: WhinchBracket
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1.0000002, y: 1, z: 0.9999999}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 4.1666665
+        value: {x: 1.0000002, y: 1, z: 0.9999999}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: WhinchBracket2
+  m_FloatCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.6333334
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 3.266667
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 4.1666665
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: blendShape.Wire001
+    path: WhinchBracket2/WichArm003/Wire
+    classID: 137
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.6333334
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 3.266667
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 4.1666665
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: blendShape.Wire001
+    path: WhinchBracket2/WichArm003/Wire002
+    classID: 137
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.6333334
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 3.266667
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 4.1666665
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: blendShape.Wire001
+    path: WhinchBracket2/WichArm003/Wire003
+    classID: 137
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.6333334
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 3.266667
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 4.1666665
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: blendShape.Wire001
+    path: WhinchBracket2/WichArm003/Wire004
+    classID: 137
+    script: {fileID: 0}
+  m_PPtrCurves: []
+  m_SampleRate: 30
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings: []
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
+    m_StartTime: 0
+    m_StopTime: 4.1666665
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_HasGenericRootTransform: 0
+  m_HasMotionFloatCurves: 0
+  m_GenerateMotionCurves: 0
+  m_Events: []

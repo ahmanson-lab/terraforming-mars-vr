@@ -1,0 +1,123 @@
+fileFormatVersion: 2
+guid: 3e4bc49eb4539ad4badcdb7984703f39
+timeCreated: 1450199988
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Sattelite_arm
+    100002: Sattelite_bolt
+    100004: //RootNode
+    100006: Sattelite_pl
+    100008: Sattelite_Plane_Seam
+    100010: sattelite_plate
+    100012: Sattelite_Rot_ctrl
+    100014: Sattelite_Rot_Ctrl_Y
+    100016: Sattelite_rot_link
+    100018: setelite_head
+    100020: setelite_head_det
+    400000: Sattelite_arm
+    400002: Sattelite_bolt
+    400004: //RootNode
+    400006: Sattelite_pl
+    400008: Sattelite_Plane_Seam
+    400010: sattelite_plate
+    400012: Sattelite_Rot_ctrl
+    400014: Sattelite_Rot_Ctrl_Y
+    400016: Sattelite_rot_link
+    400018: setelite_head
+    400020: setelite_head_det
+    2300000: Sattelite_arm
+    2300002: Sattelite_bolt
+    2300004: Sattelite_pl
+    2300006: Sattelite_Plane_Seam
+    2300008: sattelite_plate
+    2300010: Sattelite_Rot_ctrl
+    2300012: Sattelite_Rot_Ctrl_Y
+    2300014: Sattelite_rot_link
+    2300016: setelite_head
+    2300018: setelite_head_det
+    3300000: Sattelite_arm
+    3300002: Sattelite_bolt
+    3300004: Sattelite_pl
+    3300006: Sattelite_Plane_Seam
+    3300008: sattelite_plate
+    3300010: Sattelite_Rot_ctrl
+    3300012: Sattelite_Rot_Ctrl_Y
+    3300014: Sattelite_rot_link
+    3300016: setelite_head
+    3300018: setelite_head_det
+    4300000: Sattelite_pl
+    4300002: Sattelite_arm
+    4300004: Sattelite_Rot_ctrl
+    4300006: Sattelite_Rot_Ctrl_Y
+    4300008: Sattelite_rot_link
+    4300010: Sattelite_Plane_Seam
+    4300012: Sattelite_bolt
+    4300014: sattelite_plate
+    4300016: setelite_head
+    4300018: setelite_head_det
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
