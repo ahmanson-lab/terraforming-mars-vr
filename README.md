@@ -1,2 +1,2 @@
 # terraforming-mars-vr
-Annotated experience of a terraformed Mars in 2050 and 2300
+Terraforming Mars is a research-driven, annotated experience of the red planet, built in VR by Innovation Scholars and staff at the Ahmanson Lab.
