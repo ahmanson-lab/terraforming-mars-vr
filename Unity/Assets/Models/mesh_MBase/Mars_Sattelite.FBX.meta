@@ -1,0 +1,121 @@
+fileFormatVersion: 2
+guid: bb96ba2c806f90c40982184eaf649a63
+timeCreated: 1450080038
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Satelite_Lep_1
+    100004: Satelite_Lep_2
+    100006: Satelite_Lep_wire
+    100008: ' Satelite_big'
+    100010: Satelite_antena
+    100012: Satelite_head
+    100014: Satelite_head_wire
+    100016: Satelite_plate
+    100018: Satelite_wire
+    400000: //RootNode
+    400002: Satelite_Lep_1
+    400004: Satelite_Lep_2
+    400006: Satelite_Lep_wire
+    400008: ' Satelite_big'
+    400010: Satelite_antena
+    400012: Satelite_head
+    400014: Satelite_head_wire
+    400016: Satelite_plate
+    400018: Satelite_wire
+    2300000: //RootNode
+    2300002: Satelite_Lep_1
+    2300004: Satelite_Lep_2
+    2300006: Satelite_Lep_wire
+    2300008: ' Satelite_big'
+    2300010: Satelite_antena
+    2300012: Satelite_head
+    2300014: Satelite_head_wire
+    2300016: Satelite_plate
+    2300018: Satelite_wire
+    3300000: //RootNode
+    3300002: Satelite_Lep_1
+    3300004: Satelite_Lep_2
+    3300006: Satelite_Lep_wire
+    3300008: ' Satelite_big'
+    3300010: Satelite_antena
+    3300012: Satelite_head
+    3300014: Satelite_head_wire
+    3300016: Satelite_plate
+    3300018: Satelite_wire
+    4300000: Satelite_big
+    4300002: Satelite_Lep_2
+    4300004: Satelite_Lep_wire
+    4300006: Satelite_Lep_1
+    4300008: ' Satelite_big'
+    4300010: Satelite_plate
+    4300012: Satelite_head
+    4300014: Satelite_wire
+    4300016: Satelite_head_wire
+    4300018: Satelite_antena
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
