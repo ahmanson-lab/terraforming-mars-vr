@@ -1,0 +1,235 @@
+fileFormatVersion: 2
+guid: 60e5bb468c7f41344b0aa5c02889bac2
+timeCreated: 1521543682
+licenseType: Store
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Door
+    100002: DoorHinge
+    100004: //RootNode
+    100006: Platform
+    100008: WhinchBracket
+    100010: WhinchBracket2
+    100012: WichArm003
+    100014: WichArm2
+    100016: Wire
+    100018: Wire002
+    100020: Wire003
+    100022: Wire004
+    400000: Door
+    400002: DoorHinge
+    400004: //RootNode
+    400006: Platform
+    400008: WhinchBracket
+    400010: WhinchBracket2
+    400012: WichArm003
+    400014: WichArm2
+    400016: Wire
+    400018: Wire002
+    400020: Wire003
+    400022: Wire004
+    2100000: Hinge
+    2100002: Door
+    2100004: bracket
+    2100006: arm
+    2100008: Platform
+    2100010: No Name
+    2300000: Door
+    2300002: DoorHinge
+    2300004: Platform
+    2300006: WhinchBracket
+    2300008: WhinchBracket2
+    2300010: WichArm003
+    2300012: WichArm2
+    3300000: Door
+    3300002: DoorHinge
+    3300004: Platform
+    3300006: WhinchBracket
+    3300008: WhinchBracket2
+    3300010: WichArm003
+    3300012: WichArm2
+    4300000: DoorHinge
+    4300002: Door
+    4300004: WhinchBracket
+    4300006: WhinchBracket2
+    4300008: WichArm2
+    4300010: Platform
+    4300012: WichArm003
+    4300014: Wire
+    4300016: Wire002
+    4300018: Wire003
+    4300020: Wire004
+    7400000: PlatformLowering
+    7400002: DoorOpening
+    9500000: //RootNode
+    13700000: Wire
+    13700002: Wire002
+    13700004: Wire003
+    13700006: Wire004
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door
+    second: {fileID: 2100000, guid: 744121cc456fe8c41b4c9e2def6a17a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hinge
+    second: {fileID: 2100000, guid: b286e82fe625d2e4e9668f6c517f3b4b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 143293cb3ad4a14469df32c246ea9519, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Platform
+    second: {fileID: 2100000, guid: cb25ffee5ededac40b50e38ef97aea6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: arm
+    second: {fileID: 2100000, guid: 524bc038fc6c0c940b1b838446feb30c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bracket
+    second: {fileID: 2100000, guid: 2f1beba6b87d11a4a96adff6d0e7efe1, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: DoorOpening
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 125
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: PlatformLowering
+      takeName: Take 001
+      firstFrame: 125
+      lastFrame: 1000
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
