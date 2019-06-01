@@ -1,0 +1,135 @@
+fileFormatVersion: 2
+guid: f272fb5181221bf4092c8069c2e8dea1
+timeCreated: 1450172667
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Glass
+    100004: PolyCrystaline
+    100006: Sattelite
+    100008: PolyCrystaline_Frame
+    100010: Polycrystaline_Glass
+    100012: Sattelite_arm
+    100014: Sattelite_bolt
+    100016: Sattelite_pl
+    100018: Sattelite_Plane_Seam
+    100020: Sattelite_Rot_ctrl
+    100022: Sattelite_Rot_Ctrl_Y
+    100024: Sattelite_rot_link
+    400000: //RootNode
+    400002: Glass
+    400004: PolyCrystaline
+    400006: Sattelite
+    400008: PolyCrystaline_Frame
+    400010: Polycrystaline_Glass
+    400012: Sattelite_arm
+    400014: Sattelite_bolt
+    400016: Sattelite_pl
+    400018: Sattelite_Plane_Seam
+    400020: Sattelite_Rot_ctrl
+    400022: Sattelite_Rot_Ctrl_Y
+    400024: Sattelite_rot_link
+    2300000: //RootNode
+    2300002: Glass
+    2300004: PolyCrystaline
+    2300006: Sattelite
+    2300008: PolyCrystaline_Frame
+    2300010: Polycrystaline_Glass
+    2300012: Sattelite_arm
+    2300014: Sattelite_bolt
+    2300016: Sattelite_pl
+    2300018: Sattelite_Plane_Seam
+    2300020: Sattelite_Rot_ctrl
+    2300022: Sattelite_Rot_Ctrl_Y
+    2300024: Sattelite_rot_link
+    3300000: //RootNode
+    3300002: Glass
+    3300004: PolyCrystaline
+    3300006: Sattelite
+    3300008: PolyCrystaline_Frame
+    3300010: Polycrystaline_Glass
+    3300012: Sattelite_arm
+    3300014: Sattelite_bolt
+    3300016: Sattelite_pl
+    3300018: Sattelite_Plane_Seam
+    3300020: Sattelite_Rot_ctrl
+    3300022: Sattelite_Rot_Ctrl_Y
+    3300024: Sattelite_rot_link
+    4300000: Sattelite
+    4300002: Glass
+    4300004: PolyCrystaline
+    4300006: Polycrystaline_Glass
+    4300008: Sattelite_pl
+    4300010: PolyCrystaline_Frame
+    4300012: Sattelite_arm
+    4300014: Sattelite_Rot_ctrl
+    4300016: Sattelite_Rot_Ctrl_Y
+    4300018: Sattelite_rot_link
+    4300020: Sattelite_Plane_Seam
+    4300022: Sattelite_bolt
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

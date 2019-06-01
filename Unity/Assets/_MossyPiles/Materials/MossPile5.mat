@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MossPile5
+  m_Shader: {fileID: 4800000, guid: 48d29efa1db9c764ea80f1ccf8725c6b, type: 3}
+  m_ShaderKeywords: _SMOOTHFROMMAPSWITCH_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Albedo:
+        m_Texture: {fileID: 2800000, guid: 78fd7c47d6a55f74ab41e8258c07948b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AlbedoDetail:
+        m_Texture: {fileID: 2800000, guid: 0aa08990bae892049bb4ab25a4b775e8, type: 3}
+        m_Scale: {x: 22, y: 22}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HeightMap:
+        m_Texture: {fileID: 2800000, guid: 597c8daffec155f4a8b3eacd47bbf6d5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicMap:
+        m_Texture: {fileID: 2800000, guid: 78fd7c47d6a55f74ab41e8258c07948b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalExtraDetails:
+        m_Texture: {fileID: 2800000, guid: 558ab0f9dc2c1ab4d912fd681e74f712, type: 3}
+        m_Scale: {x: 11, y: 11}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: ac6ed607ad0bdea44902eb7c070e1768, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMapDetail:
+        m_Texture: {fileID: 2800000, guid: b67df38490eda6241bcd4c33c55e5f1b, type: 3}
+        m_Scale: {x: 11, y: 11}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PSSRamp:
+        m_Texture: {fileID: 2800000, guid: abfb5bd6f1a242d4db80ff96777714c9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RimmMask:
+        m_Texture: {fileID: 2800000, guid: 99817ac5672a8f040bb3483b4e0a2d41, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SmoothnessMap:
+        m_Texture: {fileID: 2800000, guid: 37f00aba62f89154f9a595af8c30a285, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample1:
+        m_Texture: {fileID: 2800000, guid: 8eebe0d1f845ae249b70ff1da0bed946, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AlbedoDetailStrenth: -0.11
+    - _BumpScale: 1
+    - _CurvFix: 1
+    - _Cutoff: 0.45
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _EmissionMultiplayer: 0
+    - _EmissionSwitch: 0
+    - _Float0: 0.5
+    - _Float1: 1
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Metallic: 0.66
+    - _Mode: 0
+    - _NormalExtraDetailsDeep: 0.75
+    - _NormalMapDepth: 0.95
+    - _NormalMapDetailsDeep: 1.13
+    - _OcclusionStrength: 1
+    - _PSSMultiplay: 0.28
+    - _PSSNormalDeep: 0.49
+    - _PSSPower: 0.07
+    - _Parallax: 0.02
+    - _ParallaxScale: 4.82
+    - _ParallaxTilling: 1
+    - _RimPower: 0.76
+    - _RimScale: 1.33
+    - _SmoothFromMapSwitch: 1
+    - _SmoothRough: 0
+    - _SmoothnessTextureChannel: 0
+    - _Snoothness: 0.17
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _TransmisionValue: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    - __dirty: 0
+    m_Colors:
+    - _AlbedoColor: {r: 0.8536844, g: 1, b: 0, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color0: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _RimColor: {r: 0.9317506, g: 0.9433962, b: 0, a: 1}
+    - _TransmissionColor: {r: 1, g: 1, b: 1, a: 0}

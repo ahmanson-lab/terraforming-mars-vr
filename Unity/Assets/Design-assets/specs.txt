@@ -1,0 +1,6 @@
+"Select a scene" text: #2C0314 @ 72pt
+Scene card title: #F4ECEA @ 48pt / Shadow: #9C1C4D
+Scene card bg: #4F0622  
+Pointer: #27DBFF
+Canvas bg: #20020E  
+Canvas border & scene card highlight border: #96E8FA

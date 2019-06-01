@@ -1,0 +1,164 @@
+fileFormatVersion: 2
+guid: a09245bccdaf6f04e9bc2b19374c8ea4
+timeCreated: 1521545700
+licenseType: Store
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Platform
+    100002: //RootNode
+    100004: WhinchBracket
+    100006: WhinchBracket2
+    100008: WichArm003
+    100010: WichArm2
+    100012: Wire
+    100014: Wire002
+    100016: Wire003
+    100018: Wire004
+    400000: Platform
+    400002: //RootNode
+    400004: WhinchBracket
+    400006: WhinchBracket2
+    400008: WichArm003
+    400010: WichArm2
+    400012: Wire
+    400014: Wire002
+    400016: Wire003
+    400018: Wire004
+    2100000: bracket
+    2100002: arm
+    2100004: Platform
+    2100006: No Name
+    2300000: Platform
+    2300002: WhinchBracket
+    2300004: WhinchBracket2
+    2300006: WichArm003
+    2300008: WichArm2
+    3300000: Platform
+    3300002: WhinchBracket
+    3300004: WhinchBracket2
+    3300006: WichArm003
+    3300008: WichArm2
+    4300000: WhinchBracket
+    4300002: WhinchBracket2
+    4300004: WichArm2
+    4300006: Platform
+    4300008: WichArm003
+    4300010: Wire
+    4300012: Wire002
+    4300014: Wire003
+    4300016: Wire004
+    7400000: PlatformLowering
+    9500000: //RootNode
+    13700000: Wire
+    13700002: Wire002
+    13700004: Wire003
+    13700006: Wire004
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: PlatformLowering
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 1000
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
