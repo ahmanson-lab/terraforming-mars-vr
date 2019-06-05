@@ -13,13 +13,13 @@ public class IntroMainMenuInteraction : MainMenuRawInteraction
     [SerializeField] private Image _scene2;
     [SerializeField] private Image _credits;
 
-    private Sprite sceneA_Hilite;
-    private Sprite sceneB_Hilite;
-    private Sprite credits_Hilite;
+    [SerializeField] private Sprite sceneA_Hilite;
+    [SerializeField] private Sprite sceneB_Hilite;
+    [SerializeField] private Sprite credits_Hilite;
 
-    private Sprite sceneA_original;
-    private Sprite sceneB_original;
-    private Sprite credits_original;
+    [SerializeField] private Sprite sceneA_original;
+    [SerializeField] private Sprite sceneB_original;
+    [SerializeField] private Sprite credits_original;
 
     private string selectedTag;
     private bool bDownRight;
@@ -31,14 +31,7 @@ public class IntroMainMenuInteraction : MainMenuRawInteraction
 
         bDownRight = OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, OVRInput.Controller.RTouch);
         _mainMenuActive = false;
-
-        sceneA_original = Resources.Load<Sprite>("scene-a");
-        sceneB_original = Resources.Load<Sprite>("scene-b");
-        credits_original = Resources.Load<Sprite>("scene-c");
-
-        sceneA_Hilite = Resources.Load<Sprite>("scene-a-hilite");
-        sceneB_Hilite = Resources.Load<Sprite>("scene-b-hilite");
-        credits_Hilite = Resources.Load<Sprite>("scene-c-hilite");
+        
 
     }
 
@@ -46,7 +39,6 @@ public class IntroMainMenuInteraction : MainMenuRawInteraction
     {
         //set selectedTag to whatever the tag of selected GameObject is
         selectedTag = t.gameObject.tag;
-        Debug.Log("hovered tag is: " + selectedTag);
 
         if (t.gameObject.tag == "Scene1")
         {
@@ -71,9 +63,6 @@ public class IntroMainMenuInteraction : MainMenuRawInteraction
 
     public override void OnSelected(Transform t)
     {
-
-        Debug.Log("right trigger pressed");
-        Debug.Log("selected tag is: " + selectedTag);
 
         if (selectedTag == "Scene1")
         {

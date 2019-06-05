@@ -63,9 +63,6 @@ public class RawInteraction : MonoBehaviour
 
     [SerializeField] private Canvas _mainMenuCanvas;
     [SerializeField] private bool _mainMenuActive;
-    [SerializeField] private Image _scene1;
-    [SerializeField] private Image _scene2;
-    [SerializeField] private Image _credits;
 
     public string selectedTag;
     
@@ -238,32 +235,6 @@ public class RawInteraction : MonoBehaviour
             {
                 GameObject.Find("Base_right").GetComponent<Renderer>().material = outlineMaterial;
             }
-        
-
-            /* if(t.gameObject.tag == "controlCenter")
-             {
-                 GameObject.Find("Control_Center_Mat").GetComponent<Renderer>().material = outlineMaterial;
-             }*/
-
-            if (t.gameObject.tag == "Scene1")
-            {
-                _scene1.GetComponentInChildren<Image>().color = Color.yellow;
-                _scene1.transform.GetChild(0).GetComponent<Image>().sprite = sceneA_Hilite;
-                
-            }
-            
-            if(t.gameObject.tag == "Scene2")
-            {
-                _scene2.GetComponentInChildren<Image>().color = Color.yellow;
-                _scene2.transform.GetChild(0).GetComponent<Image>().sprite = sceneB_Hilite;
-            }
-
-            if (t.gameObject.tag == "Credits")
-            {
-                _credits.GetComponentInChildren<Image>().color = Color.yellow;
-                _credits.transform.GetChild(0).GetComponent<Image>().sprite = credits_Hilite;
-            }
-
             //set hovering bool = true;
 
         }
@@ -302,13 +273,7 @@ public class RawInteraction : MonoBehaviour
             }
 
             GameObject.Find("Base_right").GetComponent<Renderer>().material = oldHoverMatHabitatPod;
-
-            _scene2.GetComponentInChildren<Image>().color = Color.clear;
-            _scene1.GetComponentInChildren<Image>().color = Color.clear;
-
-            _scene1.transform.GetChild(0).GetComponent<Image>().sprite = sceneA_original;
-            _scene2.transform.GetChild(0).GetComponent<Image>().sprite = sceneB_original;
-            _credits.transform.GetChild(0).GetComponent<Image>().sprite = credits_original;
+           
 
             //set hovering bool = false;
             hovering = false;
@@ -568,37 +533,6 @@ public class RawInteraction : MonoBehaviour
                 //Deactivate habitatPod arrow 
                 //_solarPanelArrow.SetActive(false);
             }
-            else if (selectedTag == "Scene1")
-            {
-                
-                Debug.Log("Active scene: " + SceneManager.GetActiveScene().name);
-                if (SceneManager.GetActiveScene().name != "Marsat2100")
-                {
-                    Debug.Log("Load scene 1!");
-                    SceneManager.LoadScene("Marsat2100");
-                }
-
-            }
-            else if (selectedTag == "Scene2")
-            {
-                t.gameObject.GetComponentInChildren<Image>().sprite = Resources.Load("scene-b-hilite") as Sprite;
-                Debug.Log("Active scene: " + SceneManager.GetActiveScene().name);
-                if (SceneManager.GetActiveScene().name != "Marsat2300")
-                {
-                    Debug.Log("Load scene 2!");
-                    SceneManager.LoadScene("Marsat2300");
-                }
-                //TODO: Add warning to show player is pressing on current scene!
-            } else if (selectedTag == "Credits")
-            {
-                Debug.Log("Active scene: " + SceneManager.GetActiveScene().name);
-                if (SceneManager.GetActiveScene().name != "Credits")
-                {
-                    Debug.Log("Load credits!");
-                    SceneManager.LoadScene("CreditsScene");
-                }
-
-            }
 
 
             if(t.gameObject.name == "ExitButton")
@@ -614,17 +548,6 @@ public class RawInteraction : MonoBehaviour
                 }
 
                 t.parent.gameObject.SetActive(false);
-            }
-         
-               
-            if (t.gameObject.name == "BackButton")
-            {
-                SceneManager.LoadScene("main", LoadSceneMode.Single);
-            }
-            Debug.Log("Clicked on " + t.gameObject.name);
-            if (outText != null)
-            {
-                outText.text = "<b>Last Interaction:</b>\nClicked On:" + t.gameObject.name;
             }
         }
     }
