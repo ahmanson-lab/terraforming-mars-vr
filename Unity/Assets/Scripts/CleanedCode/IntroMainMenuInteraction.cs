@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 using Opertoon.Stepwise;
 using UnityEngine.UI;
 
-public class IntroMainMenuInteraction : MainMenuRawInteraction
+public class IntroMainMenuInteraction : RawInteraction
 {
     [SerializeField] private Canvas _mainMenuCanvas;
     [SerializeField] private bool _mainMenuActive;
@@ -21,6 +21,8 @@ public class IntroMainMenuInteraction : MainMenuRawInteraction
     [SerializeField] private Sprite sceneB_original;
     [SerializeField] private Sprite credits_original;
 
+    [SerializeField] private GameObject bButtonOverlay;
+
     private string selectedTag;
     private bool bDownRight;
 
@@ -28,12 +30,25 @@ public class IntroMainMenuInteraction : MainMenuRawInteraction
     // Start is called before the first frame update
     void Start()
     {
-
         bDownRight = OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, OVRInput.Controller.RTouch);
         _mainMenuActive = false;
-        
-
     }
+
+    public void Update()
+    {
+        if (OVRInput.GetDown(OVRInput.Button.One))
+        {
+            Debug.Log("A pressed!!");
+            if (bButtonOverlay.activeInHierarchy)
+            {
+                bButtonOverlay.SetActive(false);
+            }
+
+            _mainMenuCanvas.gameObject.SetActive(!_mainMenuActive);
+            _mainMenuActive = !_mainMenuActive;
+        }
+    }
+
 
     public override void OnHoverEnter(Transform t)
     {

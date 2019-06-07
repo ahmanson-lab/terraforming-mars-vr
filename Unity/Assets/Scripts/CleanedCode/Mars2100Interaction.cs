@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Opertoon.Stepwise;
 
-public class Mars2100Interaction : MainMenuRawInteraction
+public class Mars2100Interaction : RawInteraction
 {
     [SerializeField] private Material outlineMaterial;
 
@@ -19,19 +19,21 @@ public class Mars2100Interaction : MainMenuRawInteraction
     [SerializeField] private GameObject stepwiseHabitatPod;
 
     [SerializeField] private GameObject agroPodPanel;
-    [SerializeField] private GameObject astronautPanel;
     [SerializeField] private GameObject satellitePanel;
     [SerializeField] private GameObject solarPanel_Panel;
     [SerializeField] private GameObject habitatPod_Panel;
 
-    [SerializeField] private string selectedTag;
-
-    [SerializeField] private Conductor _agroPodConductor;
-    [SerializeField] private Conductor _satelliteConductor;
-    [SerializeField] private Conductor _solarPanelConductor;
-    [SerializeField] private Conductor _habitatPodConductor;
+    [SerializeField] private GameObject _agroPodArrow;
+    [SerializeField] private GameObject _solarPanelArrow;
+    [SerializeField] private GameObject _satelliteArrow;
+    [SerializeField] private GameObject _habitatPodArrow;
 
     [SerializeField] private Camera auxCamera;
+
+    private Conductor _agroPodConductor;
+    private Conductor _satelliteConductor;
+    private Conductor _solarPanelConductor;
+    private Conductor _habitatPodConductor;
 
     private bool panelActive;
     private float speed;
@@ -41,6 +43,7 @@ public class Mars2100Interaction : MainMenuRawInteraction
     private GameObject _prevPanel;
     private GameObject _prevStepwise;
     private string _prevTag;
+    private string selectedTag;
 
     private void HandleScorePrepared(Score score)
     {
@@ -51,6 +54,55 @@ public class Mars2100Interaction : MainMenuRawInteraction
             score.sequences[i].repeat = false;
         }
 
+    }
+
+    private void DeactivatePanel(string selectedTag)
+    {
+
+        if (panelActive && (!_prevTag.Equals(selectedTag) || _prevTag.Equals("")))
+        {
+            Debug.Log("deactivate panel called, selected tag: " + selectedTag + "prev tag: " + _prevTag);
+            if (_prevPanel != null)
+                _prevPanel.SetActive(false);
+
+            _prevTag = selectedTag;
+        }
+    }
+
+    private IEnumerator DelayedResetAndNextStep()
+    {
+        if (selectedTag == "agroPod")
+        {
+            Debug.Log("DelayedResetAndNextStep: Agropod");
+            yield return 0;
+            _agroPodConductor.Reset();
+            yield return 0;
+            _agroPodConductor.NextStep();
+        }
+        else if (selectedTag == "satellite")
+        {
+            Debug.Log("DelayedResetAndNextStep: Satellite");
+            yield return 0;
+            _satelliteConductor.Reset();
+            yield return 0;
+            _satelliteConductor.NextStep();
+        }
+        else if (selectedTag == "solarPanel")
+        {
+            Debug.Log("DelayedResetAndNextStep: SolarPanel");
+            yield return 0;
+            _solarPanelConductor.Reset();
+            yield return 0;
+            _solarPanelConductor.NextStep();
+        }
+        else if (selectedTag == "HabitatPod")
+        {
+            Debug.Log("DelayedResetAndNextStep: HabitatPod");
+            yield return 0;
+            _habitatPodConductor.Reset();
+            yield return 0;
+            _habitatPodConductor.NextStep();
+        }
     }
 
     void Start()
@@ -89,7 +141,7 @@ public class Mars2100Interaction : MainMenuRawInteraction
         auxCamera.transform.rotation = Quaternion.Euler(x, y, 0);
     }
 
-    public void OnHoverEnter(Transform t)
+    public override void OnHoverEnter(Transform t)
     {
         //set selectedTag to whatever the tag of selected GameObject is
         selectedTag = t.gameObject.tag;
@@ -124,7 +176,7 @@ public class Mars2100Interaction : MainMenuRawInteraction
         }
     }
 
-    public void OnHoverExit(Transform t)
+    public override void OnHoverExit(Transform t)
     {
         GameObject.Find("Agro_propilen002").GetComponent<Renderer>().material = oldHoverMatInner;
         GameObject.Find("Agro_block_outside002").GetComponent<Renderer>().material = oldHoverMatOuter;
@@ -139,4 +191,89 @@ public class Mars2100Interaction : MainMenuRawInteraction
             }
         }
     }
+
+    public override void OnSelected(Transform t)
+    {
+        if (selectedTag == "agroPod")
+        {
+            panelActive = true;
+            if (agroPodPanel.activeInHierarchy == false)
+            {
+                Debug.Log("Not active");
+                DeactivatePanel(selectedTag);
+                agroPodPanel.SetActive(true);
+                StartCoroutine(DelayedResetAndNextStep());
+            }
+            else
+            {
+                Debug.Log("Agro pod panel already active: next step");
+                _agroPodConductor.NextStep();
+            }
+
+            _prevPanel = agroPodPanel;
+            _prevStepwise = stepwiseAgroPod;
+            _agroPodArrow.SetActive(false);
+        }
+        else if (selectedTag == "satellite")
+        {
+            panelActive = true;
+            if (satellitePanel.activeInHierarchy == false)
+            {
+                Debug.Log("Satellite not active");
+                DeactivatePanel(selectedTag);
+                satellitePanel.SetActive(true);
+                StartCoroutine(DelayedResetAndNextStep());
+            }
+            else
+            {
+                Debug.Log("satellite panel already active: next step");
+                _satelliteConductor.NextStep();
+            }
+
+            _prevPanel = satellitePanel;
+            _prevStepwise = stepwiseSatellite;
+            //_controlCenterArrow.SetActive(false);
+            _satelliteArrow.SetActive(false);
+        }
+        else if (selectedTag == "solarPanel")
+        {
+            panelActive = true;
+            if (solarPanel_Panel.activeInHierarchy == false)
+            {
+                Debug.Log("SolarPanel not active");
+                DeactivatePanel(selectedTag);
+                solarPanel_Panel.SetActive(true);
+                StartCoroutine(DelayedResetAndNextStep());
+            }
+            else
+            {
+                Debug.Log("solarPanel panel already active: next step");
+                _solarPanelConductor.NextStep();
+            }
+
+            _prevPanel = solarPanel_Panel;
+            _prevStepwise = stepwiseSolarPanel;
+            _solarPanelArrow.SetActive(false);
+        }
+        else if (selectedTag == "HabitatPod")
+        {
+            panelActive = true;
+            if (habitatPod_Panel.activeInHierarchy == false)
+            {
+                Debug.Log("habitatPod not active");
+                DeactivatePanel(selectedTag);
+                habitatPod_Panel.SetActive(true);
+                StartCoroutine(DelayedResetAndNextStep());
+            }
+            else
+            {
+                Debug.Log("habitatPod panel already active: next step");
+                _habitatPodConductor.NextStep();
+            }
+
+            _prevPanel = habitatPod_Panel;
+            _prevStepwise = stepwiseHabitatPod;
+        }
+    }
+
 }

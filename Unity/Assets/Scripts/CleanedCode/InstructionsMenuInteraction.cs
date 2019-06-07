@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Opertoon.Stepwise;
 
-public class InstructionsMenuInteraction : MainMenuRawInteraction
+public class InstructionsMenuInteraction : RawInteraction
 {
 
     [SerializeField] private GameObject _stepwiseInstructionMenu;
