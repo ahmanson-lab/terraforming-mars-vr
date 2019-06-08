@@ -143,10 +143,6 @@ public class Mars2100Interaction : RawInteraction
 
     public override void OnHoverEnter(Transform t)
     {
-        //set selectedTag to whatever the tag of selected GameObject is
-        selectedTag = t.gameObject.tag;
-        Debug.Log("hovered tag is: " + selectedTag);
-
         if (t.gameObject.tag == "agroPod")
         {
 
@@ -194,6 +190,10 @@ public class Mars2100Interaction : RawInteraction
 
     public override void OnSelected(Transform t)
     {
+        //set selectedTag to whatever the tag of selected GameObject is
+        selectedTag = t.gameObject.tag;
+        Debug.Log("hovered tag is: " + selectedTag);
+
         if (selectedTag == "agroPod")
         {
             panelActive = true;

@@ -89,7 +89,6 @@ public class InstructionsMenuInteraction : RawInteraction
 
     public override void OnSelected(Transform t)
     {
-        Debug.Log("Selected tag isssss: " + _selectedTag);
       if (_selectedTag == "InstructionMenu")
         {
             if (_instructionMenuCanvas.activeInHierarchy == false)
