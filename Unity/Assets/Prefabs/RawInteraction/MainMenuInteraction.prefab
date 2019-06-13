@@ -49,12 +49,12 @@ MonoBehaviour:
   _scene1: {fileID: 3831981925810753122}
   _scene2: {fileID: 4534020207035116192}
   _credits: {fileID: 6505769948616682632}
-  sceneA_Hilite: {fileID: 21300000, guid: ee429520406b9394db22ecd15ad69255, type: 3}
-  sceneB_Hilite: {fileID: 21300000, guid: 85d63014fa4b1fb4b9fa4396e5cb1465, type: 3}
-  credits_Hilite: {fileID: 21300000, guid: 0de6ca48e26f673469c2db402576d501, type: 3}
-  sceneA_original: {fileID: 21300000, guid: 0efe0ee2980e65a42af3cd081b9fc537, type: 3}
-  sceneB_original: {fileID: 21300000, guid: 68633491dec9c7c47a1e9a2653f6ac88, type: 3}
-  credits_original: {fileID: 21300000, guid: 830ffbda5eb1da24e9fae537a5ed4f30, type: 3}
+  sceneA_Hilite: {fileID: 21300000, guid: 50f2e220a2bb1e841b4ea4f9caae5c6c, type: 3}
+  sceneB_Hilite: {fileID: 21300000, guid: cf2648c27e800ea45aaab79880b1a819, type: 3}
+  credits_Hilite: {fileID: 21300000, guid: ff156e1c3879db345b89a6b7ca120d2c, type: 3}
+  sceneA_original: {fileID: 21300000, guid: 9ab25b65fc2ac7b45956b6d8c37d61b7, type: 3}
+  sceneB_original: {fileID: 21300000, guid: 0d4a595b006c24b4fa2a352ea3912b7c, type: 3}
+  credits_original: {fileID: 21300000, guid: 92954c554a648de45b1b9da866569cdb, type: 3}
   bButtonOverlay: {fileID: 0}
 --- !u!1001 &655391963222505536
 PrefabInstance:

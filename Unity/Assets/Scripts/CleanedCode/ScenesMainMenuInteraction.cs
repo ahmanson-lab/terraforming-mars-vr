@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 using Opertoon.Stepwise;
 using UnityEngine.UI;
 
-public class IntroMainMenuInteraction : RawInteraction
+public class ScenesMainMenuInteraction : RawInteraction
 {
     [SerializeField] private Canvas _mainMenuCanvas;
     [SerializeField] private bool _mainMenuActive;

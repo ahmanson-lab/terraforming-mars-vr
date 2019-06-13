@@ -25,14 +25,17 @@ using Opertoon.Stepwise;
 using UnityEngine.UI;
 using System.Collections;
 
-public class RawInteraction : MonoBehaviour
+public abstract class RawInteraction : MonoBehaviour
 {
+    // What happens when player hovers over transform with controller?
     public virtual void OnHoverEnter(Transform t)
     { }
 
+    // What happens when player retracts hover from transform with controller?
     public virtual void OnHoverExit(Transform t)
     { }
 
+    // What happens when player selects transform with controller?
     public virtual void OnSelected(Transform t)
     { }
 }
