@@ -190,7 +190,7 @@ Transform:
   - {fileID: 4334765036584466}
   - {fileID: 4334764992754433}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &45071497
 PrefabInstance:
@@ -261,18 +261,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 68829386, guid: 6b31cbfbd4b6f0042b1167b416153076,
     type: 3}
   m_PrefabInstance: {fileID: 5617804609889788184}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &148482059 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5617804609768769811, guid: 6b31cbfbd4b6f0042b1167b416153076,
-    type: 3}
-  m_PrefabInstance: {fileID: 5617804609889788184}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &186344594 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 113768, guid: 126d619cf4daa52469682f85c1378b4a,
-    type: 3}
-  m_PrefabInstance: {fileID: 463922502}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &199131358
 GameObject:
@@ -444,7 +432,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 3532288873356784052}
+        - m_Target: {fileID: 0}
           m_MethodName: NextStep
           m_Mode: 1
           m_Arguments:
@@ -516,7 +504,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 3532288873356784052}
+        - m_Target: {fileID: 0}
           m_MethodName: NextStep
           m_Mode: 1
           m_Arguments:
@@ -729,6 +717,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: MainMenuInteraction
       objectReference: {fileID: 0}
+    - target: {fileID: 6972069952598768433, guid: b24e52506b291f44491814bcfc6ba39a,
+        type: 3}
+      propertyPath: bButtonOverlay
+      value: 
+      objectReference: {fileID: 68829386}
     - target: {fileID: 6972069952598768432, guid: b24e52506b291f44491814bcfc6ba39a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -767,7 +760,7 @@ PrefabInstance:
     - target: {fileID: 6972069952598768432, guid: b24e52506b291f44491814bcfc6ba39a,
         type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 6972069952598768432, guid: b24e52506b291f44491814bcfc6ba39a,
         type: 3}
@@ -784,11 +777,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6972069952598768433, guid: b24e52506b291f44491814bcfc6ba39a,
-        type: 3}
-      propertyPath: bButtonOverlay
-      value: 
-      objectReference: {fileID: 68829386}
     - target: {fileID: 494384934706547344, guid: b24e52506b291f44491814bcfc6ba39a,
         type: 3}
       propertyPath: _cameraRig
@@ -1848,7 +1836,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 3532288873356784052}
+        - m_Target: {fileID: 0}
           m_MethodName: NextStep
           m_Mode: 1
           m_Arguments:
@@ -2369,7 +2357,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 3532288873356784052}
+        - m_Target: {fileID: 0}
           m_MethodName: NextStep
           m_Mode: 1
           m_Arguments:
@@ -2646,12 +2634,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.7902993, y: 0.35298237, z: 1.2642387}
   m_Center: {x: -0.0000019142642, y: -0.11178029, z: -0.2623477}
---- !u!1 &1697695925 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5617804610379491757, guid: 6b31cbfbd4b6f0042b1167b416153076,
-    type: 3}
-  m_PrefabInstance: {fileID: 5617804609889788184}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1703797299
 GameObject:
   m_ObjectHideFlags: 0
@@ -3253,7 +3235,7 @@ PrefabInstance:
         type: 3}
       propertyPath: onSecondarySelect.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 3532288873356784052}
+      objectReference: {fileID: 0}
     - target: {fileID: 6567304912423173502, guid: 08a8cd125a1284db69816a5a5dcf1c38,
         type: 3}
       propertyPath: onHoverEnter.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -95754,84 +95736,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!223 &3162626935790881381 stripped
-Canvas:
-  m_CorrespondingSourceObject: {fileID: 3162626935640423147, guid: b24e52506b291f44491814bcfc6ba39a,
-    type: 3}
-  m_PrefabInstance: {fileID: 386412686}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &3532288873356784052
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3532288873356784055}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43034b73b1ab62b409e7c11bfffd57ef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  yellowMat: {fileID: 2100000, guid: 5d1e07c8dcc9f0740bde7899dcf7a37d, type: 2}
-  outlineMaterial: {fileID: 2100000, guid: f7a2db33893f98b4a81bcd2acab3399c, type: 2}
-  backIdle: {fileID: 2100000, guid: cee025dc9b4a073479a2558d39b6282d, type: 2}
-  backACtive: {fileID: 2100000, guid: b1c17a17605695742a22909fd1245eb3, type: 2}
-  outText: {fileID: 0}
-  hovering: 0
-  stepwiseAgroPod: {fileID: 973810641}
-  stepwiseSatellite: {fileID: 646880653}
-  stepwiseSolarPanel: {fileID: 1485782109}
-  stepwiseHabitatPod: {fileID: 838429118}
-  stepwiseInstructionMenu: {fileID: 1697695925}
-  agroPodPanel: {fileID: 199131358}
-  astronautPanel: {fileID: 0}
-  satellitePanel: {fileID: 1355380692}
-  solarPanel_Panel: {fileID: 346389814}
-  habitatPod_Panel: {fileID: 1629780716}
-  _instructionMenuCanvas: {fileID: 148482059}
-  _instructionMenuActive: 0
-  timeLeft: 0
-  bButtonOverlay: {fileID: 68829386}
-  _mainMenuCanvas: {fileID: 3162626935790881381}
-  _mainMenuActive: 0
-  selectedTag: 
-  rightHand: {fileID: 186344594}
-  auxCamera: {fileID: 5844508469042562587}
-  _agroPodArrow: {fileID: 7780881215922537817}
-  _solarPanelArrow: {fileID: 269793040}
-  _satelliteArrow: {fileID: 1041595829}
-  _habitatPodArrow: {fileID: 616959633}
---- !u!4 &3532288873356784053
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3532288873356784055}
-  m_LocalRotation: {x: -0.0058101127, y: -0.6644899, z: 0.002874289, w: 0.7472691}
-  m_LocalPosition: {x: 1.9, y: -0.9, z: 105.4}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: -0.279, y: -83.29, z: 0.689}
---- !u!1 &3532288873356784055
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3532288873356784053}
-  - component: {fileID: 3532288873356784052}
-  m_Layer: 0
-  m_Name: Interaction
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
 --- !u!65 &5371702574062380320
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -95921,7 +95825,7 @@ PrefabInstance:
     - target: {fileID: 5617804609442214782, guid: 6b31cbfbd4b6f0042b1167b416153076,
         type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5617804609442214782, guid: 6b31cbfbd4b6f0042b1167b416153076,
         type: 3}

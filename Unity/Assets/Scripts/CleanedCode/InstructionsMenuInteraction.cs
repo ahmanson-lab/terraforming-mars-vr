@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Opertoon.Stepwise;
 
+/* This is the script that runs when user presses B button. */
 public class InstructionsMenuInteraction : RawInteraction
 {
 

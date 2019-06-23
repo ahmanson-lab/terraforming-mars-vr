@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 using Opertoon.Stepwise;
 using UnityEngine.UI;
 
+
+/* This is the script that runs for main menu in the intro scene 
+ * and when users press A button for menu. */
 public class ScenesMainMenuInteraction : RawInteraction
 {
     [SerializeField] private Canvas _mainMenuCanvas;
